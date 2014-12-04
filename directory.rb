@@ -1,0 +1,8 @@
+puts "The students of a Makers Academy cohort"
+puts "-----------"
+puts "Harry Potter"
+puts "Hermione Granger"
+puts "Ron Weasley"
+puts "Fred Weasley"
+puts "George Weasley"
+puts "Luna Lovegood"
