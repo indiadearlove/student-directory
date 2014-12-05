@@ -1,4 +1,4 @@
-student_count = 9
+student_count = 6
 
 #first we print the list of students
 
@@ -13,6 +13,4 @@ puts "Luna Lovegood"
 
 #finally we print the total number of students
 
-print "Overall, we have "
-print student_count
-puts " great students"
+print "Overall, we have #{student_count} great students"
