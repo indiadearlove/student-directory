@@ -1,3 +1,5 @@
+student_count = 9
+
 #first we print the list of students
 
 puts "The students of a Makers Academy cohort"
@@ -12,5 +14,5 @@ puts "Luna Lovegood"
 #finally we print the total number of students
 
 print "Overall, we have "
-print 6
+print student_count
 puts " great students"
