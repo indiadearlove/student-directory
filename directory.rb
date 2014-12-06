@@ -1,6 +1,4 @@
-student_count = 6
-
-#let's put all the students in an array
+#Let's put all the students in an array
 
 students = [
     "Harry Potter",
@@ -11,14 +9,24 @@ students = [
     "Luna Lovegood"
 ]
 
-#and then print them
-
-puts "The students of my cohort at Makers Academy"
-puts "------------"
-students.each do |student|
-	puts student
+def print_header
+    puts "The students of my cohort at Makers Academy"
+    puts "------------"
 end
 
-#finally we print the total number of students
+def print(names)
+	names.each do |name|
+		puts name
+	end
+end
 
-print "Overall, we have #{student_count} great students"
+def print_footer(names)
+	puts "Overall, we have #{names.length} great students"
+end
+
+#Now lets call the methods
+
+print_header
+print(students)
+print_footer(students)
+
