@@ -1,15 +1,23 @@
 student_count = 6
 
-#first we print the list of students
+#let's put all the students in an array
 
-puts "The students of a Makers Academy cohort"
-puts "-----------"
-puts "Harry Potter"
-puts "Hermione Granger"
-puts "Ron Weasley"
-puts "Fred Weasley"
-puts "George Weasley"
-puts "Luna Lovegood"
+students = [
+    "Harry Potter",
+    "Hermione Granger",
+    "Ron Weasley",
+    "Fred Weasley",
+    "George Weasley",
+    "Luna Lovegood"
+]
+
+#and then print them
+
+puts "The students of my cohort at Makers Academy"
+puts "------------"
+students.each do |student|
+	puts student
+end
 
 #finally we print the total number of students
 
