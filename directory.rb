@@ -1,12 +1,12 @@
 #Let's put all the students in an array
 
 students = [
-    "Harry Potter",
-    "Hermione Granger",
-    "Ron Weasley",
-    "Fred Weasley",
-    "George Weasley",
-    "Luna Lovegood"
+    ["Harry Potter", :december],
+    ["Hermione Granger", :december],
+    ["Ron Weasley", :december],
+    ["Fred Weasley", :december],
+    ["George Weasley", :december],
+    ["Luna Lovegood", :december]
 ]
 
 def print_header
